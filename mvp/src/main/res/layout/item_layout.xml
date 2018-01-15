@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="你好"/>
+
+    <TextView
+        android:id="@+id/directorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="10dp"
+        android:text="你好"/>
+
+    <TextView
+        android:id="@+id/actionName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/directorName"
+        android:layout_marginTop="10dp"
+        android:text="你好"/>
+
+    <TextView
+        android:id="@+id/actionName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/actionName1"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/directorName"
+        android:layout_marginTop="10dp"
+        android:text="你好"/>
+
+</RelativeLayout>
