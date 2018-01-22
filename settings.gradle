@@ -1,1 +1,1 @@
-include ':app', ':mvp', ':md360player', ':glide', ':ipcclient', ':ipcserver', ':common'
+include ':app', ':mvp', ':md360player', ':glide', ':ipcclient', ':ipcserver', ':common', ':mvvm'
